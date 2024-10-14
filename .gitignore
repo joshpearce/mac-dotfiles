@@ -1,0 +1,12 @@
+# Ignore everything
+/*
+
+# But not these files...
+!.gitignore
+
+!.config/
+.config/*
+!.config/zsh/
+.config/zsh/.zsh_sessions
+
+!.zsh-git-prompt/
