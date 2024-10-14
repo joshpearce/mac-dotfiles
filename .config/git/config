@@ -1,0 +1,8 @@
+[user]
+	name = Tavisca-Josh-Pearce
+	email = 107544648+Tavisca-Josh-Pearce@users.noreply.github.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

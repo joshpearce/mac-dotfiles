@@ -8,5 +8,6 @@
 .config/*
 !.config/zsh/
 .config/zsh/.zsh_sessions
+!.config/git/
 
 !.zsh-git-prompt/
