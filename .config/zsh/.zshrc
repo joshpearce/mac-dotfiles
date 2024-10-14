@@ -125,3 +125,11 @@ compinit -d ~/.cache/zcompdump
 alias gits='git status -bs'
 #alias tf="tofu"
 alias newpass='openssl rand -base64 14'
+
+# Secrative
+export SSH_AUTH_SOCK=/Users/<user_id>/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
+# Brew-file
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+  source $(brew --prefix)/etc/brew-wrap
+fi

@@ -3,11 +3,15 @@
 
 # But not these files...
 !.gitignore
+!.zprofile
+!.zshenv
+!.zshrc
 
 !.config/
 .config/*
 !.config/zsh/
 .config/zsh/.zsh_sessions
+.config/zsh/.zsh_history
 !.config/git/
 
 !.zsh-git-prompt/
