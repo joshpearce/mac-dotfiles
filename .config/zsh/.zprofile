@@ -9,6 +9,9 @@ export SHELL_SESSION_FILE=$SHELL_SESSION_DIR/$TERM_SESSION_ID
 # Add Visual Studio Code (code)
 export PATH="$PATH":"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# Homebrew
+export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
+
 # AWS CLI 
 # export AWS_VAULT_PROMPT=ykman
 # export AWS_VAULT_KEYCHAIN_NAME=aws-vault

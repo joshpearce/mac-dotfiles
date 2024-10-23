@@ -20,7 +20,7 @@ eval "$(direnv hook zsh)"
 # Git Prompt
 source ~/.zsh-git-prompt/zshrc.sh
 setopt prompt_subst
-export PROMPT='%n@%m:%~🌵🌮$(git_super_status) '
+export PROMPT='%n:%~🌵🌮$(git_super_status) '
 
 # To profile zsh startup, run:
 # % ZPROF=1 zsh -ic "zprof;exit"
@@ -127,7 +127,7 @@ alias gits='git status -bs'
 alias newpass='openssl rand -base64 14'
 
 # Secrative
-export SSH_AUTH_SOCK=/Users/<user_id>/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+export SSH_AUTH_SOCK=/Users/f721417/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
 # Brew-file
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
